@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin-top: 12%;
+}
+.h1{
+    margin-bottom: 50px;
+}
+.playbtn{
+    width: 40%;
+    position: relative;
+    top: -50%;
+    cursor: pointer;
+    transition: 0.5s;
+    opacity: 0;
+}
+.col-md-4:hover .playbtn{
+    opacity: 1;
+}

@@ -1,0 +1,32 @@
+body{
+    background: #212529;
+}
+.carousel-inner{
+  
+padding: 10px;
+   
+}
+.carousel-item::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: black;
+    opacity: 0.3;
+}
+p{
+    background-color: rgb(230, 230, 230);
+    
+}
+
+
+
+.right-side{
+    background: rgb(255, 255, 255);
+}
+
+
+
